@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="otogaleriDBModelStoreContainer" CdmEntityContainer="OtoGaleriDB">
+    <EntitySetMapping Name="uyeler">
+      <EntityTypeMapping TypeName="otogaleriDBModel.uyeler">
+        <MappingFragment StoreEntitySet="uyeler">
+          <ScalarProperty Name="durum" ColumnName="durum" />
+          <ScalarProperty Name="dogrulamakodu" ColumnName="dogrulamakodu" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="kullaniciadi" ColumnName="kullaniciadi" />
+          <ScalarProperty Name="kullanicisifre" ColumnName="kullanicisifre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
